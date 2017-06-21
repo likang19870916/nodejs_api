@@ -1,0 +1,13 @@
+{
+  "name": "node-api",
+  "version": "0.1.0",
+  "description": "",
+  "title": "Test API",
+  "description": "Test API for Web",
+  "url" : "http://api.likang-web.com",
+  "sampleUrl" : "http://api.likang-web.com",
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}

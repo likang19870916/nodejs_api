@@ -1,0 +1,141 @@
+define({ "api": [
+  {
+    "type": "get",
+    "url": "/api/images",
+    "title": "get",
+    "group": "images",
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "string",
+            "optional": false,
+            "field": "result",
+            "description": ""
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "/home/www/appapi/node-api/routes/apis.js",
+    "groupTitle": "images",
+    "name": "GetApiImages",
+    "sampleRequest": [
+      {
+        "url": "http://api.likang-web.com/api/images"
+      }
+    ]
+  },
+  {
+    "type": "post",
+    "url": "/api/images",
+    "title": "post",
+    "group": "images",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "Int",
+            "optional": false,
+            "field": "id",
+            "description": ""
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "user",
+            "description": ""
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "email",
+            "description": ""
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Object",
+            "optional": false,
+            "field": "result",
+            "description": ""
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "/home/www/appapi/node-api/routes/apis.js",
+    "groupTitle": "images",
+    "name": "PostApiImages",
+    "sampleRequest": [
+      {
+        "url": "http://api.likang-web.com/api/images"
+      }
+    ]
+  },
+  {
+    "type": "get",
+    "url": "/",
+    "title": "get",
+    "group": "index",
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "object",
+            "optional": false,
+            "field": "result",
+            "description": ""
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "/home/www/appapi/node-api/routes/index.js",
+    "groupTitle": "index",
+    "name": "Get",
+    "sampleRequest": [
+      {
+        "url": "http://api.likang-web.com/"
+      }
+    ]
+  },
+  {
+    "type": "get",
+    "url": "/users",
+    "title": "get",
+    "group": "user",
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Object",
+            "optional": false,
+            "field": "result",
+            "description": ""
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "/home/www/appapi/node-api/routes/users.js",
+    "groupTitle": "user",
+    "name": "GetUsers",
+    "sampleRequest": [
+      {
+        "url": "http://api.likang-web.com/users"
+      }
+    ]
+  }
+] });
